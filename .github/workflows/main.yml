@@ -28,4 +28,5 @@ jobs:
       # Step 4: Build the Docker image using Docker Buildx
       - name: Build Docker image
         run: |
-          docker buildx build -t ${{ secrets.DOCKER_USERNAME }}/webapp:latest . --push
+          docker buildx build -t jayasai9000/webapp:1.1 . --push
+
